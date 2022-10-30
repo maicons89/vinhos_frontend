@@ -8,88 +8,31 @@
   </head>
   <body>
     <section>
-      <div class="circle"></div>
       <header>
-        <a href="#"><img src="../assets/logo.png" class="logo" /></a>
-        <ul>
-          <li><a href="#">Catálogo</a></li>
-          <li><a href="#">Quem somos</a></li>
-          <li><a href="#">Contato</a></li>
-          <li><a href="#">Cadastro de Vinhos</a></li>
-          <li><a href="#">Cadastro de Clientes</a></li>
-          <li><a href="#">Sorteios</a></li>
-          <li><a href="#">Sair</a></li>
-        </ul>
+        <a href=""><img src="../assets/logo.png" class="logo" /></a>
+        <button mat-button class="menu-button" routerLink="/catalogo">
+          <span>Catálogo</span>
+        </button>
+        <button mat-button class="menu-button" routerLink="/quemsomos">
+          <span>Quem somos</span>
+        </button>
+        <button mat-button class="menu-button" routerLink="/contato">
+          <span>Contato</span>
+        </button>
+        <button mat-button class="menu-button" routerLink="/cadastrovinhos">
+          <span>Cadastro de Vinhos</span>
+        </button>
+        <button mat-button class="menu-button" routerLink="/cadastroclientes">
+          <span>Cadastro de Clientes</span>
+        </button>
+        <button mat-button class="menu-button" routerLink="/sorteios">
+          <span>Sorteios</span>
+        </button>
+        <button mat-button class="menu-button" routerLink="/sair">
+          <span>Sair</span>
+        </button>
       </header>
-      <div class="content">
-        <div class="textBox">
-          <h2>
-            Não são apenas vinhos.<br />
-            <span>São momentos.</span>
-          </h2>
-          <p>
-            Nossa missão é oferecer vinhos de alta qualidade, gastronômicos e
-            preços justos. Temos como foco incansável, criar uma relação
-            duradoura e de confiança com todos os nossos clientes.
-          </p>
-          <a href="#"> Saiba mais</a>
-        </div>
-        <div class="imgBox">
-          <img
-            src="../assets/corderoconpieldeloborose.png"
-            class="corderoconpieldeloborose"
-          />
-        </div>
-      </div>
-      <ul class="thumb">
-        <li>
-          <button mat-button color="primary">
-            <img
-              src="../assets/thumb1.png"
-              (click)="
-                changeStyle('#eb7495', '../assets/corderoconpieldeloborose.png')
-              "
-            />
-          </button>
-        </li>
-        <li>
-          <button mat-button color="primary">
-            <img
-              src="../assets/thumb2.png"
-              (click)="
-                changeStyle(
-                  '#017143',
-                  '../assets/corderoconpieldelobchardoonnay.png'
-                )
-              "
-            />
-          </button>
-        </li>
-        <li>
-          <button mat-button color="primary">
-            <img
-              src="../assets/thumb3.png"
-              (click)="
-                changeStyle(
-                  '#d752b1',
-                  '../assets/corderoconpieldelobomalbec.png'
-                )
-              "
-            />
-          </button>
-        </li>
-      </ul>
-      <ul class="sci">
-        <li>
-          <a href="#"><img src="../assets/facebook.png" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="../assets/twitter.png" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="../assets/instagram.png" /></a>
-        </li>
-      </ul>
+      <router-outlet></router-outlet>
     </section>
   </body>
 </html>
