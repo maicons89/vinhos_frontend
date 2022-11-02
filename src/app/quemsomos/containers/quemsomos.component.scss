@@ -1,0 +1,49 @@
+section {
+  padding: 30px 1%;
+}
+*::selection {
+  color: #fff;
+  background: var(--main-color);
+}
+img {
+  width: 100%;
+}
+.telaquemsomos{
+  width: auto;
+  min-width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+}
+.quemsomos-text {
+  flex: 1 1 17rem;
+}
+.tela-img {
+  flex: 1 1 17rem;
+}
+.tela-img img {
+  animation: animate 3s linear infinite;
+}
+@keyframes animate {
+  0% {
+    transform: translate(-11px, 0);
+  }
+  50% {
+    transform: translate(-0px, -11px);
+  }
+  100% {
+    transform: translate(-11px, 0);
+  }
+}
+.quemsomos-text h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--second-color);
+  text-transform: capitalize;
+  margin: 0.5rem 0 1.4rem;
+}
+
+
+
+

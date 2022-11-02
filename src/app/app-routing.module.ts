@@ -12,6 +12,16 @@ const routes: Routes = [
     loadChildren: () =>
       import('./catalogo/catalogo.module').then((m) => m.CatalogoModule),
   },
+  {
+    path: 'quemsomos',
+    loadChildren: () =>
+      import('./quemsomos/quemsomos.module').then((m) => m.QuemsomosModule),
+  },
+  {
+    path: 'contato',
+    loadChildren: () =>
+      import('./contato/contato.module').then((m) => m.ContatoModule),
+  },
 ];
 
 @NgModule({
