@@ -1,1 +1,1 @@
-# vinhos_frontend
+# vinhos-frontend
