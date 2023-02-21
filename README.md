@@ -2,7 +2,7 @@
 
 ## 🍷 Sobre <a	name="sobre"></a>
 
- <p align="justify">Criei um site com a intenção de apresentar a empresa, os vinhos do catálogo, cadastrar os clientes e realizar sorteios..</p>
+ <p align="justify">Criei um site com a intenção de apresentar a empresa, os vinhos do catálogo, cadastrar os clientes e realizar sorteios.</p>
  
  <div align="center">
 <img src="https://user-images.githubusercontent.com/104724792/212496832-a8fefbb2-b046-4d41-9db6-5b7b19740360.PNG" width="700px" />
